@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+		<link rel="icon" type="image/png" href="http://www.favicon.cc/logo3d/1764.png">
+    <title>Aroy~Thai</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+  </head>
+
+  <body>
+  	<div>
+  		<div class="brand">Aroy~Thai<br>
+  			<h2>
+	      	<small>EAT THAI, <strong>NOT  </strong>THAT.</small>
+	      </h2>
+  		</div><br>
+  	</div>
+    
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Aroy~Thai</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+		<div id="contacts">
+	    	<div class="row">        
+	     	<!-- Alignment -->
+	        	<div class="col-sm-offset-3 col-sm-6">
+	         	<!-- Form itself -->
+	          		<form name="sentMessage" class="well" id="contactForm" novalidate>
+	         		<legend class="text-center">Contact Us ☺</legend>
+	                	<div class="control-group">
+	                    	<div class="controls">
+		                        <input type="text" class="form-control" placeholder="Full Name" id="name" 
+		                        required data-validation-required-message="Please enter your name" />
+		                        <p class="help-block"></p>
+	                 		</div>
+	         			</div>         
+	                	<div class="control-group">
+	                  		<div class="controls">
+	                        	<input type="email" class="form-control" placeholder="Email" id="email" 
+	                        	required data-validation-required-message="Please enter your email" />
+	                		</div>
+	        			</div>              
+	               		<div class="control-group">
+	                 		<div class="controls">
+		                        <textarea rows="10" cols="100" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter your message" minlength="5" 
+		                        data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
+	                		</div>
+	               		</div>                 
+	         			<div id="success"> </div> <!-- For success/fail messages -->
+	         			<button type="submit" class="btn btn-primary pull-right">Send</button><br />
+	         		</form>
+       			</div>
+      		</div>
+	    </div>
+    </div><!-- /.container -->
+    
+    <footer>
+      <div class="container" id="contactContainer">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p>Copyright &copy; Lynn Wall & Anish Kshatriya</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="./js/contact_me.js"></script>
+    <script src="./js/jqBootstrapValidation.js"></script>
+    <script>
+	  // Activates the Carousel
+	  $('.carousel').carousel({
+		interval: 5000
+	  })
+	</script>
+
+  </body>
+</html>
